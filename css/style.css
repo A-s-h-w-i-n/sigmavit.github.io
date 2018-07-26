@@ -1,0 +1,433 @@
+html {
+      font-size: 16px;
+}
+
+@font-face {
+font-family: Montserrat;
+src: url(fonts/montserrat-regular.ttf);
+}
+
+body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      font-family: Montserrat;
+}
+ 
+header {
+      width: 100%;
+      height: 100vh;
+      background: url(hero.jpg) no-repeat 50% 50%;
+      background-size: cover;
+}
+
+ 
+nav {
+      position: fixed;
+      top: 0; 
+      z-index: 999;
+      width: 100%;
+      line-height: 3.75rem;
+      background-color: #fff!important;  
+}
+
+.nav_color_1 {
+      background-color: #dfa904!important;
+      transition: 0.5s ease-in;
+}
+
+.nav_color_2 {
+      background-color: #303030!important;
+      transition: 0.5s ease-in;
+}
+  
+.nav-logo {
+      height: 2.5rem; 
+      margin-top: 0.625rem; 
+      margin-left: 1.25rem;
+}
+
+nav ul {
+      line-height: 3.75rem;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin-right: 5%!important;
+      transition: 1s;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      margin: 0 0.625rem;
+}
+
+nav ul li a {
+      color: #fff;
+      font-size: 1.2rem;
+      margin-top: 0.2rem;
+      transition: 0.5s ease-in;
+}
+
+nav ul li a:hover {
+      color: #fff;
+      background-color: rgba(0,0,0,0)!important;
+      border-bottom: 0.25rem solid white;
+      transition: 0s ease-in;
+}
+
+#nav-btn {
+      display: none;
+}
+
+.mobNav {
+      display: none;          
+}
+
+.main {
+      transition: 0.5s ease-in;
+}
+
+.top-img {
+      margin: 0 0 0 0;  
+}
+
+.top-img p {
+      font-size: 1.875rem;
+}
+
+.bgcol {
+      background: linear-gradient(white, #dddddd, white);
+}
+
+#home-logo {
+      height: 14.0625rem;
+}
+
+#arrow {
+      height: 2.5rem;
+      width: 2.5rem;
+}
+
+.anchor{
+  display: block;
+  height: 3.75rem; 
+  margin-top: -3.75rem;
+  visibility: hidden;
+}
+
+#about {
+      margin-top: 25%;
+}
+
+.bounce {
+  display: inline-block;
+  position: relative;
+  -moz-animation: bounce 0.5s infinite linear;
+  -o-animation: bounce 0.5s infinite linear;
+  -webkit-animation: bounce 0.5s infinite linear;
+  animation: bounce 0.5s infinite linear;
+}
+
+@-webkit-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-moz-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-o-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@-ms-keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+@keyframes bounce {
+    0% { top: 0; }
+    50% { top: -0.2em; }
+    70% { top: -0.3em; }
+    100% { top: 0; }
+}
+
+.About p {
+      padding: 10% 5px; 
+      font-size: 1.7rem;
+}
+
+.container {
+      width: 90%!important;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.pos {
+      font-size: 0.8rem!important;
+}
+
+.pos-name {
+      font-size: 1rem!important;
+}
+
+.card-pad {
+      padding: 1rem 3rem 0 3rem!important;
+}
+
+.card-format{
+      height: 25rem!important;
+}
+
+.card-image{
+      height: 60%!important;
+}
+
+.Team .row{
+      margin-top: 0px!important;
+      margin-bottom: 0px!important;
+}
+
+.page-footer {
+      background-color: #303030!important;
+}
+
+.collection a:link {
+      color: black;
+}
+
+.collection a:hover {
+      color: #dfa904!important;
+}
+
+.collection a:visited {
+      color: black;
+}
+
+.faculty {
+      margin-left: 37.5%!important;
+}
+
+.container-footer {
+      margin-right: 5%;
+      margin-left: 2%;
+}
+
+.footer-img {
+      height: 9.375rem;
+}
+
+@media screen and (max-width: 992px) {
+
+      body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            font-family: Montserrat;
+      }
+       
+      header {
+            width: 100%;
+            height: 100vh;
+            background: url(hero.jpg) no-repeat 50% 50%;
+            background-size: cover;
+      }
+
+      nav {
+            position: fixed;
+            top: 0; 
+            z-index: 999;
+            width: 100%;
+            line-height: 3.75rem;
+            background-color: #fff!important;  
+            height: 10rem!important;         
+      }
+
+      .nav-wrapper{
+            padding-top: 2rem;
+      }
+
+      .nav_color_1 {
+            background-color: #dfa904!important;
+            transition: 0.5s ease-in;
+      }
+
+      .nav_color_2 {
+            background-color: #303030!important;
+            transition: 0.5s ease-in;
+      }
+        
+      .nav-logo {
+            height: 2.5rem; 
+            margin-top: 0.625rem; 
+            margin-left: 1.25rem;
+      }
+
+      nav ul {
+            display: none;
+      } 
+
+      .brand-logo {
+            font-size: 4rem!important;  
+      }  
+
+      .nav-logo {
+            display: none;
+      }
+
+      #nav-btn{
+            display: inline;
+            font-size: 4rem;
+            margin-left: 1rem;
+            cursor:pointer;
+      } 
+
+      .mobNav {
+          display: block;          
+          height: 100%; /* 100% Full-height */
+          width: 0; /* 0 width - change this with JavaScript */
+          position: fixed; /* Stay in place */
+          z-index: 1000; /* Stay on top */
+          top: 0; /* Stay at the top */
+          left: 0;
+          background-color: #3d3d3d; /* Black*/
+          overflow-x: hidden; /* Disable horizontal scroll */
+          overflow-y: hidden;
+          transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+      }
+
+      .mobNav a {
+          padding: 0.5rem 2rem 0.5rem 2rem;
+          text-decoration: none;
+          font-size: 1.5rem;
+          color: #818181;
+          display: block;
+          transition: 0.5s;
+      }
+
+      .mobNav a:hover {
+          color: #dfa904;
+      }
+
+      .mobNav ul {
+            margin: 0;
+      }
+      .nav-head {
+            background-color: #303030;
+            padding-top: 1.5rem;
+            margin-bottom: 2rem;
+      }
+
+      .mobNav .closebtn {
+          position: absolute;
+          top: 0;
+          right: 25px;
+          font-size: 36px;
+          margin-left: 50px;
+      }
+
+      #home-logo {
+            height: 10rem;
+      }
+
+      .top-img p {
+            font-size: 2rem;
+      }
+
+      #arrow {
+            height: 3rem;
+            width: 3rem;
+      }
+
+      .About h1 {
+            font-size: 4rem;
+      }
+
+      .About p {
+            font-size: 1rem;
+      }
+
+      .Events h1 {
+            font-size: 4rem;
+      }
+
+      .Team .container {
+            width: 85%!important;
+      }
+
+      .Team h1 {
+            font-size: 4rem;
+      }
+
+      .pos {
+            font-size: 0.7rem!important;
+      }
+
+      .pos-name {
+            font-size: 1rem!important;
+      }
+
+      .card-pad {
+            padding: 0.8rem!important;
+      }
+
+      .card-content{
+            height: 40rem!important;
+      }
+
+      .card-format{
+            height: 40rem!important;
+      }
+
+      .Team .card{
+            height: 20rem!important;
+      }
+
+      .Team .card:hover{
+            height: 20rem!important;
+      }
+
+      .Contact h1 {
+            font-size: 4rem;
+      }
+
+      .faculty {
+            margin-left: 25%!important;
+      }
+
+      .footer-img {
+            height: 7rem;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
