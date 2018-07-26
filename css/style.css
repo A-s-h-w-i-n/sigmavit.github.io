@@ -316,10 +316,14 @@ nav ul li a:hover {
       .mobNav a {
           padding: 2rem 2rem 2rem 2rem;
           text-decoration: none;
-          font-size: 3.5rem;
+          font-size: 4rem;
           color: #818181;
           display: block;
           transition: 0.5s;
+      }
+
+      .mobNav a img {
+          width: 8rem;
       }
 
       .mobNav a:hover {
@@ -329,6 +333,7 @@ nav ul li a:hover {
       .mobNav ul {
             margin: 0;
       }
+
       .nav-head {
             background-color: #303030;
             padding-top: 1.5rem;
@@ -344,11 +349,11 @@ nav ul li a:hover {
       }
 
       #home-logo {
-            height: 10rem;
+            height: 15rem;
       }
 
       .top-img p {
-            font-size: 2rem;
+            font-size: 5rem;
       }
 
       #arrow {
@@ -356,20 +361,20 @@ nav ul li a:hover {
             width: 3rem;
       }
 
+      #about {
+            margin-top: 10%!important;
+      }
+
       .About h1 {
             font-size: 4rem;
       }
 
       .About p {
-            font-size: 1rem;
+            font-size: 3rem;
       }
 
       .Events h1 {
             font-size: 4rem;
-      }
-
-      .Team .container {
-            width: 85%!important;
       }
 
       .Team h1 {
