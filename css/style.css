@@ -369,6 +369,11 @@ nav ul li a:hover {
             width: 5rem;
       }
 
+      .anchor{
+            height: 10rem; 
+            margin-top: -10rem;
+      }
+
       #about {
             margin-top: 20%!important;
       }
@@ -390,11 +395,11 @@ nav ul li a:hover {
       }
 
       .pos {
-            font-size: 0.7rem!important;
+            font-size: 1.2rem!important;
       }
 
       .pos-name {
-            font-size: 1rem!important;
+            font-size: 1.5rem!important;
       }
 
       .card-pad {
