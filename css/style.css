@@ -348,21 +348,29 @@ nav ul li a:hover {
           margin-left: 50px;
       }
 
+      .container {
+        width: 70%!important;
+      }
+
+      .About .container {
+        width: 90%!important;
+      }
+
       #home-logo {
             height: 15rem;
       }
 
       .top-img p {
-            font-size: 5rem;
+            font-size: 3rem;
       }
 
       #arrow {
-            height: 3rem;
-            width: 3rem;
+            height: 5rem;
+            width: 5rem;
       }
 
       #about {
-            margin-top: 10%!important;
+            margin-top: 20%!important;
       }
 
       .About h1 {
@@ -390,11 +398,7 @@ nav ul li a:hover {
       }
 
       .card-pad {
-            padding: 0.8rem!important;
-      }
-
-      .card-content{
-            height: 40rem!important;
+            padding: 2rem!important;
       }
 
       .card-format{
