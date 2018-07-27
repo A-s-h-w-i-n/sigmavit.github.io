@@ -223,6 +223,7 @@ nav ul li a:hover {
 
 .faculty {
       margin-left: 37.5%!important;
+      margin-bottom: 4%;
 }
 
 .container-footer {
@@ -431,7 +432,45 @@ nav ul li a:hover {
       }
 }
 
+section {
+  margin: 0!important;
+}
+.slider {
+    width: 80%!important;
+    margin-left: 10%!important;
+    height: 360px!important;
+}
 
+.slick-slide {
+  margin: 0px 20px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black!important;
+  font-size: 40px!important;
+}
+
+.slick-prev, .slick-next {
+  top: 35%!important; 
+}
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+  opacity: .2;
+}
+
+.slick-active {
+  opacity: 1;
+}
+
+.slick-current {
+  opacity: 1;
+}
 
 
 
