@@ -433,6 +433,18 @@ nav ul li a:hover {
             font-size: 4rem;
       }
 
+      .card-title {
+        font-size: 2.5rem!important;
+      }
+
+      .card-content p {      
+        font-size: 2rem!important;
+      }
+
+      .card-reveal p {
+        font-size: 2rem;
+      }
+
       .Team h1 {
             font-size: 4rem;
       }
@@ -467,7 +479,7 @@ nav ul li a:hover {
       }
 
       .faculty {
-            margin-left: 30%!important;
+            margin-left: 33.33%!important;
       }
 
       .footer-img {
