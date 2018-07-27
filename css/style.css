@@ -413,6 +413,7 @@ nav ul li a:hover {
 
       .Team .card{
             height: 20rem!important;
+            width: 326px!important;
       }
 
       .Team .card:hover{
@@ -424,7 +425,7 @@ nav ul li a:hover {
       }
 
       .faculty {
-            margin-left: 33.33%!important;
+            margin-left: 30%!important;
       }
 
       .footer-img {
@@ -470,6 +471,10 @@ section {
 
 .slick-current {
   opacity: 1;
+}
+
+.slick-dots {
+  top: 85%!important;
 }
 
 
